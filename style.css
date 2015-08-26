@@ -9,11 +9,11 @@ body {
 p { 
 	font-size: 24px; 
 	color: white;
-
+	font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 48px;
 	color: white;
 	font-family: 'Audiowide', cursive;
 }
