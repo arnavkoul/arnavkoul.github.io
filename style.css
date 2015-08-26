@@ -1,0 +1,19 @@
+body {
+	background-color: #3498db;
+}
+
+#awesome {
+	width: 250px;
+}
+
+p { 
+	font-size: 24px; 
+	color: white;
+
+}
+
+h1 {
+	font-size: 36px;
+	color: white;
+	font-family: 'Audiowide', cursive;
+}
