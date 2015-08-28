@@ -8,12 +8,16 @@ body {
 
 p { 
 	font-size: 24px; 
-	color: white;
+	color: yellow;
 	font-family: 'Raleway', sans-serif;
 }
 
 h1 {
 	font-size: 56px;
-	color: white;
+	color: yellow;
 	font-family: 'Audiowide', cursive;
+}
+
+h3 {
+	color: white;
 }
