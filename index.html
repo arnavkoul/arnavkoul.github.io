@@ -4,15 +4,48 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,300' rel='stylesheet' type='text/css'>
+		<!-- Compiled and minified CSS -->
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>          
 	</head>
 		<body>
+
+
+		<script>
+
+    $(document).ready(function(){
+    	alert("hi");
+       $('.slider').slider();
+    });
+
+        </script>
 
 			<center>
 			<h1>Arnav Koul</h1>
 				<img src="assets/Arnav.jpg" id= "awesome"/>
+				<div class="slider">
+					<ul class="sildes">
+						<li>
+							<img src="assets/Arnav.jpg" id= "awesome"/>
+							<div class="caption center-align">
+								<h3>Awesome Arnav</h3>
+							</div>
+						</li>
+						<li>
+							<img src="assets/Glove1.jpg" id= "awesome"/>
+							<div class="caption center-align">
+								<h3>Awesome baseball</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
 					<p>My name is Arnav! I like to play baseball, eat and play videogames.</p>
 			</center>
 				<audio autoplay loop src="assets/backgroundmusic.mp3">
 				</audio>
+
 		</body>
 	</html>
